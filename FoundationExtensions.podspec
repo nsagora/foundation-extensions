@@ -31,4 +31,5 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '2.0'
 
   s.source_files = 'Sources/*/*.swift'
+  s.watchos.exclude_files = 'Sources/AVFoundation/*.swift'
 end
