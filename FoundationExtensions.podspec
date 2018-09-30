@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FoundationExtensions'
   s.version          = '0.1.0'
-  s.summary          = ''
+  s.summary          = 'Common foundation extensions.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = ""
+  s.description      = "Extend the Foundation framework with a set of common extensions across projects"
 
   s.homepage         = 'https://github.com/nsagora/foundation-extensions'
   s.license          = { :type => 'MIT License', :file => 'LICENSE' }
