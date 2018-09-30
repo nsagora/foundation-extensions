@@ -13,6 +13,9 @@
 		FA92387621609D0A005F9732 /* UserDefaultsExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92387521609D0A005F9732 /* UserDefaultsExtensionsTests.swift */; };
 		FA92387721609D0A005F9732 /* UserDefaultsExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92387521609D0A005F9732 /* UserDefaultsExtensionsTests.swift */; };
 		FA92387821609D0A005F9732 /* UserDefaultsExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92387521609D0A005F9732 /* UserDefaultsExtensionsTests.swift */; };
+		FA92387A2160A79D005F9732 /* CGRectExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9238792160A79D005F9732 /* CGRectExtensionsTests.swift */; };
+		FA92387B2160A79D005F9732 /* CGRectExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9238792160A79D005F9732 /* CGRectExtensionsTests.swift */; };
+		FA92387C2160A79D005F9732 /* CGRectExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9238792160A79D005F9732 /* CGRectExtensionsTests.swift */; };
 		FAA87CCD1D5CB80900792F43 /* FoundationExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA87CC41D5CB80900792F43 /* FoundationExtensions.framework */; };
 		FAA87CE91D5CB82000792F43 /* FoundationExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA87CE01D5CB82000792F43 /* FoundationExtensions.framework */; };
 		FAA87D161D5CC00D00792F43 /* FoundationExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB52B321D54EB8F00110049 /* FoundationExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -94,6 +97,7 @@
 /* Begin PBXFileReference section */
 		FA92387121609584005F9732 /* DataExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtensionsTests.swift; sourceTree = "<group>"; };
 		FA92387521609D0A005F9732 /* UserDefaultsExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtensionsTests.swift; sourceTree = "<group>"; };
+		FA9238792160A79D005F9732 /* CGRectExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRectExtensionsTests.swift; sourceTree = "<group>"; };
 		FAA87CB71D5CB7F500792F43 /* FoundationExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FoundationExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA87CC41D5CB80900792F43 /* FoundationExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FoundationExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA87CCC1D5CB80900792F43 /* FoundationExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoundationExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -270,6 +274,7 @@
 			isa = PBXGroup;
 			children = (
 				FA92387521609D0A005F9732 /* UserDefaultsExtensionsTests.swift */,
+				FA9238792160A79D005F9732 /* CGRectExtensionsTests.swift */,
 				FAC6547B216001AC00847277 /* StringExtensionsTests.swift */,
 				FA92387121609584005F9732 /* DataExtensionsTests.swift */,
 			);
@@ -607,6 +612,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA92387821609D0A005F9732 /* UserDefaultsExtensionsTests.swift in Sources */,
+				FA92387C2160A79D005F9732 /* CGRectExtensionsTests.swift in Sources */,
 				FAC6547E216001AC00847277 /* StringExtensionsTests.swift in Sources */,
 				FA92387421609584005F9732 /* DataExtensionsTests.swift in Sources */,
 			);
@@ -635,6 +641,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA92387721609D0A005F9732 /* UserDefaultsExtensionsTests.swift in Sources */,
+				FA92387B2160A79D005F9732 /* CGRectExtensionsTests.swift in Sources */,
 				FAC6547D216001AC00847277 /* StringExtensionsTests.swift in Sources */,
 				FA92387321609584005F9732 /* DataExtensionsTests.swift in Sources */,
 			);
@@ -663,6 +670,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA92387621609D0A005F9732 /* UserDefaultsExtensionsTests.swift in Sources */,
+				FA92387A2160A79D005F9732 /* CGRectExtensionsTests.swift in Sources */,
 				FAC6547C216001AC00847277 /* StringExtensionsTests.swift in Sources */,
 				FA92387221609584005F9732 /* DataExtensionsTests.swift in Sources */,
 			);
