@@ -1,0 +1,320 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/AVFoundation/AVPlayer+Extensions.swift",
+      "line": 5,
+      "symbol": "AVPlayer.isPlaying",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/AVFoundation/AVPlayer+Extensions.swift",
+      "line": 9,
+      "symbol": "AVPlayer.reset()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/AVFoundation/AVPlayer+Extensions.swift",
+      "line": 13,
+      "symbol": "AVPlayer.seek(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/AVFoundation/SeekerHelper.swift",
+      "line": 6,
+      "symbol": "SeekerHelper",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/AVFoundation/SeekerHelper.swift",
+      "line": 14,
+      "symbol": "SeekerHelper.init(player:playerItem:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/AVFoundation/SeekerHelper.swift",
+      "line": 19,
+      "symbol": "SeekerHelper.seek(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/Array+Extensions.swift",
+      "line": 15,
+      "symbol": "Array.DeltaItems",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/Array+Extensions.swift",
+      "line": 16,
+      "symbol": "Array.DeltaItems.addedItems",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/Array+Extensions.swift",
+      "line": 17,
+      "symbol": "Array.DeltaItems.removedItems",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/Array+Extensions.swift",
+      "line": 18,
+      "symbol": "Array.DeltaItems.addedIndexes",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/Array+Extensions.swift",
+      "line": 19,
+      "symbol": "Array.DeltaItems.removedIndexes",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/Array+Extensions.swift",
+      "line": 22,
+      "symbol": "Array.difference(of:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/Array+Extensions.swift",
+      "line": 36,
+      "symbol": "Array.getAddedAndRemovedItems(of:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/Array+Extensions.swift",
+      "line": 50,
+      "symbol": "Array.removeDuplicates()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/Array+Extensions.swift",
+      "line": 65,
+      "symbol": "Array.filterDuplicates(includeElement:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/Array+Extensions.swift",
+      "line": 83,
+      "symbol": "Array.remove(object:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/Array+Extensions.swift",
+      "line": 88,
+      "symbol": "Array.removeObjects(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/CGSize+Extensions.swift",
+      "line": 6,
+      "symbol": "CGSize.extended(by:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/CGSize+Extensions.swift",
+      "line": 15,
+      "symbol": "CGSize.extend(by:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/CGSize+Extensions.swift",
+      "line": 19,
+      "symbol": "CGSize.size(toFit:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/Data+Extensions.swift",
+      "line": 8,
+      "symbol": "Data.sha1()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/Data+Extensions.swift",
+      "line": 13,
+      "symbol": "Data.sha256()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/Data+Extensions.swift",
+      "line": 18,
+      "symbol": "Data.md5()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/Data+Extensions.swift",
+      "line": 30,
+      "symbol": "Data.HashCalculator.HashAlgorithm",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/Data+Extensions.swift",
+      "line": 31,
+      "symbol": "Data.HashCalculator.HashLenght",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/Data+Extensions.swift",
+      "line": 36,
+      "symbol": "Data.HashCalculator.init(algorithm:legth:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/Data+Extensions.swift",
+      "line": 41,
+      "symbol": "Data.HashCalculator.digest(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/String+Extension.swift",
+      "line": 7,
+      "symbol": "String.empty",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/String+Extension.swift",
+      "line": 14,
+      "symbol": "String.truncated(to:trailing:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/String+Extension.swift",
+      "line": 23,
+      "symbol": "String.truncate(to:trailing:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/String+Extension.swift",
+      "line": 32,
+      "symbol": "String.capitalizedFirstLetter()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/String+Extension.swift",
+      "line": 36,
+      "symbol": "String.capitalizeFirstLetter()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/String+Extension.swift",
+      "line": 45,
+      "symbol": "String.trimmedWhiteSpacesAndNewLines()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/String+Extension.swift",
+      "line": 49,
+      "symbol": "String.trimWhiteSpacesAndNewLines()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/String+Extension.swift",
+      "line": 53,
+      "symbol": "String.trimmedNewLines()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/String+Extension.swift",
+      "line": 57,
+      "symbol": "String.trimNewLines()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/String+Extension.swift",
+      "line": 66,
+      "symbol": "String.sha1()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/String+Extension.swift",
+      "line": 71,
+      "symbol": "String.sha256()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/String+Extension.swift",
+      "line": 76,
+      "symbol": "String.md5()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/URLRequest+Extensions.swift",
+      "line": 5,
+      "symbol": "URLRequest.authenticated(withUsername:andPassword:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/UserDefaults+Extensions.swift",
+      "line": 5,
+      "symbol": "UserDefaults.subscript(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/UserDefaults+Extensions.swift",
+      "line": 14,
+      "symbol": "UserDefaults.value(forKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/UserDefaults+Extensions.swift",
+      "line": 18,
+      "symbol": "UserDefaults.value(forKey:withDefault:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Extensions/UserDefaults+Extensions.swift",
+      "line": 22,
+      "symbol": "UserDefaults.setOrRemove(_:forKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Developer/opensource/foundation-extensions/Sources/Helpers/AppInfoObserver.swift",
+      "line": 3,
+      "symbol": "AppInfoObserver",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/alex/Developer/opensource/foundation-extensions"
+}
