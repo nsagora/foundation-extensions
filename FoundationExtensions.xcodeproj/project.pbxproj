@@ -35,9 +35,9 @@
 		FABB30AE214EA50100BFF2AB /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB3038214EA4FB00BFF2AB /* Array+Extensions.swift */; };
 		FABB30AF214EA50100BFF2AB /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB3038214EA4FB00BFF2AB /* Array+Extensions.swift */; };
 		FABB30B0214EA50100BFF2AB /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB3038214EA4FB00BFF2AB /* Array+Extensions.swift */; };
-		FABB30B9214EA50100BFF2AB /* SeekerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB303B214EA4FC00BFF2AB /* SeekerHelper.swift */; };
-		FABB30BA214EA50100BFF2AB /* SeekerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB303B214EA4FC00BFF2AB /* SeekerHelper.swift */; };
-		FABB30BB214EA50100BFF2AB /* SeekerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB303B214EA4FC00BFF2AB /* SeekerHelper.swift */; };
+		FABB30B9214EA50100BFF2AB /* AVPlayerSeekerMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB303B214EA4FC00BFF2AB /* AVPlayerSeekerMediator.swift */; };
+		FABB30BA214EA50100BFF2AB /* AVPlayerSeekerMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB303B214EA4FC00BFF2AB /* AVPlayerSeekerMediator.swift */; };
+		FABB30BB214EA50100BFF2AB /* AVPlayerSeekerMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB303B214EA4FC00BFF2AB /* AVPlayerSeekerMediator.swift */; };
 		FABB30C5214EA50100BFF2AB /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB303E214EA4FC00BFF2AB /* UserDefaults+Extensions.swift */; };
 		FABB30C6214EA50100BFF2AB /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB303E214EA4FC00BFF2AB /* UserDefaults+Extensions.swift */; };
 		FABB30C7214EA50100BFF2AB /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB303E214EA4FC00BFF2AB /* UserDefaults+Extensions.swift */; };
@@ -111,7 +111,7 @@
 		FABB3029214EA4FA00BFF2AB /* CGRect+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extensions.swift"; sourceTree = "<group>"; };
 		FABB302D214EA4FB00BFF2AB /* CGSize+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+Extensions.swift"; sourceTree = "<group>"; };
 		FABB3038214EA4FB00BFF2AB /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
-		FABB303B214EA4FC00BFF2AB /* SeekerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeekerHelper.swift; sourceTree = "<group>"; };
+		FABB303B214EA4FC00BFF2AB /* AVPlayerSeekerMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerSeekerMediator.swift; sourceTree = "<group>"; };
 		FABB303E214EA4FC00BFF2AB /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
 		FABB3046214EA4FD00BFF2AB /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		FABB3052214EA4FE00BFF2AB /* MaximumLengthFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaximumLengthFormatter.swift; sourceTree = "<group>"; };
@@ -264,7 +264,7 @@
 		FABB318A214EA6B700BFF2AB /* AVFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				FABB303B214EA4FC00BFF2AB /* SeekerHelper.swift */,
+				FABB303B214EA4FC00BFF2AB /* AVPlayerSeekerMediator.swift */,
 				FABB3067214EA50000BFF2AB /* AVPlayer+Extensions.swift */,
 			);
 			path = AVFoundation;
@@ -499,6 +499,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = FAB52B251D54EB8F00110049;
@@ -590,7 +591,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FABB30BB214EA50100BFF2AB /* SeekerHelper.swift in Sources */,
+				FABB30BB214EA50100BFF2AB /* AVPlayerSeekerMediator.swift in Sources */,
 				FABB315F214EA50100BFF2AB /* AppInfoObserver.swift in Sources */,
 				FABB316B214EA50100BFF2AB /* AVPlayer+Extensions.swift in Sources */,
 				FABB30AF214EA50100BFF2AB /* Array+Extensions.swift in Sources */,
@@ -620,7 +621,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FABB30C6214EA50100BFF2AB /* UserDefaults+Extensions.swift in Sources */,
-				FABB30BA214EA50100BFF2AB /* SeekerHelper.swift in Sources */,
+				FABB30BA214EA50100BFF2AB /* AVPlayerSeekerMediator.swift in Sources */,
 				FABB30AE214EA50100BFF2AB /* Array+Extensions.swift in Sources */,
 				FABB3072214EA50100BFF2AB /* CGRect+Extensions.swift in Sources */,
 				FABB30E6214EA50100BFF2AB /* String+Extension.swift in Sources */,
@@ -648,7 +649,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FABB30B9214EA50100BFF2AB /* SeekerHelper.swift in Sources */,
+				FABB30B9214EA50100BFF2AB /* AVPlayerSeekerMediator.swift in Sources */,
 				FABB315D214EA50100BFF2AB /* AppInfoObserver.swift in Sources */,
 				FABB3169214EA50100BFF2AB /* AVPlayer+Extensions.swift in Sources */,
 				FABB30AD214EA50100BFF2AB /* Array+Extensions.swift in Sources */,

@@ -3,7 +3,7 @@ import AVFoundation
 
 // Documentation is available here: https://developer.apple.com/library/archive/qa/qa1820/_index.html
 
-public class SeekerHelper {
+public class AVPlayerSeekerMediator {
 
     private var player: AVPlayer
     private var playerItem: AVPlayerItem
