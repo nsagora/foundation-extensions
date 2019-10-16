@@ -1,6 +1,6 @@
 import Foundation
 
-public extension Array {
+extension Array {
 
     /**
         Makes an empty array of `Element` type.
@@ -10,7 +10,7 @@ public extension Array {
     }
 }
 
-public extension Array where Element: Hashable {
+extension Array where Element: Hashable {
 
     public struct DeltaItems<Element> {
         public var addedItems: [Element] = []
@@ -45,7 +45,7 @@ public extension Array where Element: Hashable {
     }
 }
 
-public extension Array where Element: Equatable {
+extension Array where Element: Equatable {
 
     public func removeDuplicates() -> [Element] {
         var result = [Element]()
@@ -78,7 +78,7 @@ extension Array {
     }
 }
 
-public extension Array where Element: Equatable {
+extension Array where Element: Equatable {
 
     public mutating func remove(object: Element) {
         guard let index = index(of: object) else { return }

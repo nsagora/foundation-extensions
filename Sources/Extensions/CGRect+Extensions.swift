@@ -1,7 +1,7 @@
 import Foundation
 import CoreGraphics
 
-public extension CGRect {
+extension CGRect {
 
     /**
      Calculates the center `CGPoint` of the receiver.

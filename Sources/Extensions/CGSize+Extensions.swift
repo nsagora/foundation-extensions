@@ -1,7 +1,7 @@
 import Foundation
 import CoreGraphics
 
-public extension CGSize {
+extension CGSize {
 
     public func extended(by padding: CGSize) -> CGSize {
         var size = self

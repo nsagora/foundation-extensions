@@ -3,7 +3,7 @@ import CommonCrypto
 
 // MARK: - CHECKSUM
 
-public extension Data {
+extension Data {
 
     public func sha1() -> String {
         let digest = HashCalculator(algorithm: CC_SHA1, legth: CC_SHA1_DIGEST_LENGTH)
@@ -21,7 +21,8 @@ public extension Data {
     }
 }
 
-public extension Data {
+extension Data {
+    
     /**
      Adapted from http://stackoverflow.com/questions/25761344/how-to-crypt-string-to-sha1-with-swift
      */

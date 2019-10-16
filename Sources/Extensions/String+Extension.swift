@@ -2,14 +2,14 @@ import Foundation
 
 // MARK: - Factory Methods
 
-public extension String {
+extension String {
 
     public static var empty: String { return "" }
 }
 
 // MARK: - Truncation
 
-public extension String {
+extension String {
 
     public func truncated(to length: Int, trailing: String = .empty) -> String {
         guard count > length else { return self }
@@ -27,7 +27,7 @@ public extension String {
 
 // MARK: - Capitalization
 
-public extension String {
+extension String {
 
     public func capitalizedFirstLetter() -> String {
         return prefix(1).uppercased() + dropFirst()
@@ -40,7 +40,7 @@ public extension String {
 
 // MARK: - Trimming
 
-public extension String {
+extension String {
 
     public func trimmedWhiteSpacesAndNewLines() -> String {
         return trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
@@ -77,18 +77,6 @@ extension String {
         let data = self.data(using: .utf8)!
         return data.md5()
     }
-
-//    /**
-//        Returns a string by adding percent rncoding for RFC3986.
-//    */
-//    func urlEscaped() -> String? {
-//
-//        let unreserved = "-._~/?"
-//        var allowed = CharacterSet.alphanumerics()
-//        allowed.addCharacters(in: unreserved)
-//
-//        return addingPercentEncoding(withAllowedCharacters: allowed as CharacterSet)
-//    }
 }
 
 

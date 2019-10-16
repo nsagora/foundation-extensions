@@ -1,6 +1,6 @@
 import Foundation
 
-public extension URLRequest {
+extension URLRequest {
 
     public mutating func authenticated(withUsername username: String, andPassword password: String) {
 
